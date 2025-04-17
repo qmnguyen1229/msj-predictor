@@ -72,10 +72,10 @@ with tab2:
 
     col1, col2 = st.columns(2)
     with col1:
-    st.markdown("#### Original Inputs")
-    plaintiff_type = st.selectbox("Plaintiff Type", le_plaintiff.classes_, key="plaintiff_orig")
-    defendant_type = st.selectbox("Defendant Type", le_defendant.classes_, key="defendant_orig")
-    filing_party = st.selectbox("Filing Party", le_filing.classes_, key="filer_orig")
+        st.markdown("#### Original Inputs")
+        plaintiff_type = st.selectbox("Plaintiff Type", le_plaintiff.classes_, key="plaintiff_orig")
+        defendant_type = st.selectbox("Defendant Type", le_defendant.classes_, key="defendant_orig")
+        filing_party = st.selectbox("Filing Party", le_filing.classes_, key="filer_orig")
 
 # What-If Inputs
 with col2:
